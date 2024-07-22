@@ -1,0 +1,211 @@
+.sideBar {
+    width: 400px;
+    padding: 68px 48px 0 48px;
+}
+
+.sideBar__title {
+    color: rgb(0, 0, 0);
+    font-family: Rubik;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.sideBar__ul {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    list-style-type: none;
+}
+
+.sideBar__ul_link {
+    color: rgb(0, 0, 0);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+.sideBar__ul_link:hover {
+    color: rgb(44, 128, 230);
+    text-decoration-line: underline;
+    transition: 0.5;
+}
+
+.active_link {
+    color: rgb(44, 128, 230);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.plans {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        cursor: pointer;
+    }
+}
+
+.myContacts {
+    margin-top: 374px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .period {
+        h4 {
+            margin-left: 4px;
+            margin-bottom: 20px;
+            color: rgb(0, 0, 0);
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        .period__select {
+            width: 213px;
+            height: 47px;
+            padding: 16px 21px;
+            box-sizing: border-box;
+            border: 2px solid rgb(190, 190, 190);
+            border-radius: 30px;
+            color: rgb(0, 0, 0);
+            font-family: Rubik;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0%;
+            text-align: left;
+
+
+            option {
+                color: rgb(0, 0, 0);
+                font-family: Rubik;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+    }
+
+    .format {
+        h4 {
+            margin-left: 4px;
+            margin-bottom: 20px;
+            color: rgb(0, 0, 0);
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        .format__select {
+            width: 213px;
+            height: 47px;
+            padding: 16px 21px;
+            box-sizing: border-box;
+            border: 2px solid rgb(190, 190, 190);
+            border-radius: 30px;
+            color: rgb(0, 0, 0);
+            font-family: Rubik;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0%;
+            text-align: left;
+
+
+            option {
+                color: rgb(0, 0, 0);
+                font-family: Rubik;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+    }
+
+    .myContacts__others {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+        p {
+            color: rgb(0, 0, 0);
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0%;
+            text-align: left;
+            cursor: pointer;
+        }
+    }
+}
+
+.interesting {
+    margin-top: 423px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h4 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .interesting__links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        a {
+            color: rgb(0, 0, 0);
+            font-family: Rubik;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-decoration: none;
+        }
+    }
+}

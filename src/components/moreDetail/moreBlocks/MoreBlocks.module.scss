@@ -1,0 +1,222 @@
+.more {
+    margin-top: 168px;
+    display: flex;
+    gap: 30px;
+}
+
+.notes {
+
+    h4 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.notes__blocks {
+    margin-top: 30px;
+    width: 486px;
+    height: 702px;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.notes__block {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.notes__block_item {
+
+    span {
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.notes__block_itemWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    small {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.blue {
+    color: rgb(44, 128, 230);
+}
+
+.yellow {
+    color: rgb(189, 149, 10);
+}
+
+.importantPoints {
+
+    h4 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.importantPoints__block {
+    margin-top: 30px;
+    padding: 25px;
+    width: 485px;
+    height: 706px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.importantPoints__items {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.importantPoints__items {
+    span {
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.importantPoints__items_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    small {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.interaction {
+
+    h4 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.interaction__block {
+    margin-top: 30px;
+    padding: 25px;
+    width: 486px;
+    height: 704px;
+    border-radius: 30px;
+
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.interaction__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h5 {
+        margin-bottom: 5px;
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.interaction__item_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    span {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.tonight {
+    margin-top: 40px;
+}
+
+.importantPoints__block_blue {
+    span {
+        color: rgb(44, 128, 230);
+    }
+}

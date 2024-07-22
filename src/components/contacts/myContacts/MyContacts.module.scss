@@ -1,0 +1,171 @@
+.myContacts {
+    margin-top: 131px;
+
+    h3 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.myContacts__block {
+    margin-top: 40px;
+    display: flex;
+    gap: 33px;
+}
+
+.myContacts__info {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.myContacts__topCountries {
+
+    h5 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.myContacts__topCountries_info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.myContacts__topCountries_infoItem {
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.myContacts__topCountries_infoPercent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    div {
+        height: 8px;
+        border-radius: 20px;
+        background: rgb(109, 176, 255);
+    }
+
+    span {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.myContacts__topCountries_infoPercentLineUsa {
+    width: 278px;
+}
+
+.myContacts__topCountries_infoPercentLineChine {
+    width: 229.65px;
+}
+
+.myContacts__topCountries_infoPercentLineRussia {
+    width: 198.57px;
+}
+
+.myContacts__topCountries_infoPercentLineIndia {
+    width: 189.07px;
+}
+
+.myContacts__topCountries_infoPercentLineBrasil {
+    width: 148.5px;
+}
+
+.myContacts__topCities {
+
+    h5 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.myContacts__topCities_info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.myContacts__topCities_infoItem {
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.myContacts__topCities_infoPercent {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+    div {
+        height: 8px;
+        border-radius: 20px;
+        background: rgb(109, 176, 255);
+    }
+
+    span {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+}
+.myContacts__topCities_infoPercentLineNewYork {
+    width: 238.29px;
+}
+.myContacts__topCities_infoPercentLineShanghai {
+    width: 223.61px;
+}
+.myContacts__topCities_infoPercentLineNewDeli {
+    width: 215.84px;
+}
+.myContacts__topCities_infoPercentLineMoskva {
+    width: 189.07px;
+}
+.myContacts__topCities_infoPercentLinePeter {
+    width: 148.5px;
+}

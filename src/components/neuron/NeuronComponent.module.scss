@@ -1,0 +1,449 @@
+.neuronComponent {
+    margin-top: 62px;
+    display: flex;
+    gap: 179px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 202px;
+}
+
+.myContacts {
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    p {
+        cursor: pointer;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.myContacts__checkbox {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    display: flex;
+    gap: 3px;
+
+    input {
+        width: 18px;
+        height: 18px;
+        background: rgb(107, 107, 107);
+    }
+
+    input:checked~.checkmark {
+        background-color: #666;
+        /* Цвет фона чекбокса при нажатии */
+        border: 1px solid #666;
+    }
+
+    span {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.checkbox_container {
+    display: inline-block;
+    font-size: 18px;
+    color: #666;
+    /* Цвет текста */
+    cursor: pointer;
+    user-select: none;
+    /* Запрещаем выделение текста */
+}
+
+.checkbox_container input[type="checkbox"] {
+    display: none;
+    /* Скрываем оригинальный чекбокс */
+}
+
+.checkbox_container span {
+    position: relative;
+    padding-left: 30px;
+    /* Отступ слева для текста */
+}
+
+.checkbox_container span:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    /* Цвет границы чекбокса */
+    background-color: #ccc;
+    /* Цвет фона чекбокса */
+}
+
+.checkbox_container input[type="checkbox"]:checked+span:before {
+    background-color: #666;
+    /* Цвет фона чекбокса при отметке */
+    border-color: #666;
+    /* Цвет границы чекбокса при отметке */
+}
+
+.checkbox_container span:after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 4px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox_container input[type="checkbox"]:checked+span:after {
+    display: block;
+}
+
+
+.familiar {
+
+
+    h2 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.familiar__scroll {
+    margin-top: 40px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow-y: scroll;
+    padding-left: 10px;
+    direction: rtl;
+}
+
+.familiar__scroll::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 30px;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.familiar__scroll::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: rgba(112, 108, 108, 0.5);
+}
+
+.familiar__user {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 16px;
+}
+
+.familiar__info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    span {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 405;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.rightBlock {
+    margin-top: 57px;
+}
+
+.contacts {
+    display: flex;
+    gap: 21px;
+}
+
+
+.works {
+    width: 300px;
+    height: 481px;
+    position: relative;
+
+}
+
+.works__foot_line {
+    position: absolute;
+    left: 48px;
+    bottom: 135px;
+}
+
+.works__foot_lineSecond {
+    position: absolute;
+    right: 40px;
+    bottom: -10px;
+}
+
+.works__foot_lineThird {
+    position: absolute;
+    right: 32px;
+    bottom: 134px;
+}
+
+.works__wrap {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.works__user {
+    width: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        margin-bottom: 13px;
+    }
+
+    p {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 405;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    span {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
+
+.works__foot {
+    margin-top: 80px;
+    display: flex;
+    gap: 19px;
+}
+
+.foot_user {
+    width: 98px;
+    z-index: 2;
+}
+
+.categories {
+    position: relative;
+    width: 310px;
+}
+
+.categories__line {
+    position: relative;
+    left: -172px;
+    top: -29px;
+}
+
+.categories__lineSecond {
+    position: relative;
+    top: -13px;
+    right: -190px;
+}
+
+.categories__user {
+    position: absolute;
+    top: 2px;
+    left: 109px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        margin-bottom: 13px;
+    }
+
+    p {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 405;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    span {
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
+
+.categories__names {
+    margin-top: 109px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 103px;
+    position: relative;
+}
+
+.categories__names_line {
+    position: absolute;
+    left: 78px;
+    top: 19px;
+}
+
+.categories__names_lineSecond {
+    position: absolute;
+    top: 22px;
+    right: 88px;
+}
+
+.categories__names_work {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(109, 176, 255);
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.categories__names_personal {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(97, 193, 63);
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.categories__userBlock {
+    margin-top: 54px;
+    margin-left: 111px;
+}
+
+.categories__sports {
+    position: relative;
+    margin-top: 54px;
+    margin-left: 101px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 30px;
+    background: rgb(225, 178, 12);
+
+    p {
+        color: rgb(255, 255, 255);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+.categories__sports_lineThird {
+    position: absolute;
+    bottom: 33px;
+    left: 49px;
+}
+.personals__foot {
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.personals__foot_line {
+    position: absolute;
+    top: -64px;
+    left: 41px;
+}
+.personals__foot_lineSecond {
+    position: absolute;
+    top: -62px;
+    left: 148px;
+
+}
+.personals__foot_lineThird {
+    position: absolute;
+    top: -73px;
+    right: 41px;
+}
+.sports {
+    margin-top: 10px;
+    margin-left: 216px;
+    display: flex;
+    gap: 20px;
+}

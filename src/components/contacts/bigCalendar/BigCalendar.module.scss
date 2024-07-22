@@ -1,0 +1,191 @@
+.bigCalendar {
+    margin-top: 130px;
+    display: flex;
+    gap: 31px;
+
+    h3 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.bigCalendar__items {
+    width: 1051px;
+    height: 704px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 3px solid rgb(190, 190, 190);
+    border-radius: 30px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+.bigCalendar__item {
+    width: 150px;
+    padding: 25px 12px 0 25px;
+    border-right: 2px solid rgb(190, 190, 190);
+    height: 100%;
+}
+
+.bigCalendar__item_num {
+    p {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    span {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 0px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.sixNum {
+    p {
+        color: rgb(227, 76, 76);
+
+    }
+
+    span {
+        color: rgb(227, 76, 76);
+
+    }
+}
+
+.bigCalendar__item_union {
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.bigCalendar__item_plans {
+    margin-top: 59px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+span {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.bigCalendar__item_plansNum {
+    p {
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    span {
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.blue {
+    color: rgb(44, 128, 230);
+}
+
+.yellow {
+    color: rgb(179, 141, 10);
+}
+
+.green {
+    color: rgb(61, 157, 26);
+}
+
+.third {
+    margin-top: -32px;
+}
+
+.fore {
+    margin-top: 174px;
+}
+
+.sunday {
+    border-right: none;
+}
+
+.bigCalendar__notes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bigCalendar__notes_block {
+    width: 433px;
+    height: 702px;
+    padding: 25px 28px 0 15px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    img {
+        width: 41px;
+        height: 41px
+    }
+}
+
+.bigCalendar__notes_ideaWrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        font-family: Rubik;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    small {
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+        color: gray;
+    }
+}
+
+.bigCalendar__notes_ideaDesc {
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: left;
+}

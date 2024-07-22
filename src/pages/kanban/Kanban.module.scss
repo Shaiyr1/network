@@ -1,0 +1,20 @@
+
+
+
+.exit {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    p {
+        color: rgb(92, 92, 92);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}

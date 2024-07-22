@@ -1,0 +1,141 @@
+.familiar {
+    width: 1514px;
+    margin-top: 130px;
+
+    h3 {
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.familiar__slider {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.familiar__prevBtn {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+.familiar__nextBtn {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+.familiar__hidden {
+    width: 1363px;
+    overflow: hidden;
+}
+.familiar__slide {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    transition: 1s;
+    transition: transform 1s ease-in-out;
+}
+
+.familiarCard {
+    flex: 0 0 auto;
+    width: 321px;
+    height: 166px;
+    padding: 20px 21px 20px 33px;
+    box-sizing: border-box;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 30px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.familiarCard__info {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.familiarCard__name {
+    margin-left: 16px;
+
+    h4 {
+        padding-bottom: 5px;
+        color: rgb(0, 0, 0);
+        font-family: Rubik;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    p {
+        padding-top: 5px;
+        color: rgb(107, 107, 107);
+        font-family: Rubik;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.familiarData__more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.familiarCard__btns {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 1s;
+    }
+}
+
+.familiarCard__addBtn {
+    width: 145px;
+    height: 35px;
+    border-radius: 30px;
+    background: rgb(107, 107, 107);
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+
+.familiarCard__msgBtn {
+    width: 87px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 30px;
+    color: rgb(107, 107, 107);
+    font-family: Rubik;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: left;
+}
